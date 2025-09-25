@@ -32,7 +32,7 @@ The model precisely calculates the real-time positions of the missile, the UAV, 
 
 The objective function is highly complex and non-linear. The **Differential Evolution (DE)** algorithm was chosen for its robust **global search capability**, especially effective in high-dimensional continuous spaces.
 
-* **Objective**: $\max (\text{Total\_Cover\_Time})$, solved as $\min (-\text{Total\_Cover\_Time})$.
+* **Objective**: $\max (\text{Total-Cover-Time})$, solved as $\min (-\text{Total-Cover-Time})$.
 * **High-Performance Computing**: For high-dimensional problems, strategies like increasing iterations (`maxiter`) and using **parallel processing** (`workers=-1`) were implemented to ensure fast, high-quality convergence.
 
 ### 3. The Time Scheduling Abstraction (Problem 5)
